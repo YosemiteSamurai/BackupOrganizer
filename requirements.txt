@@ -1,0 +1,31 @@
+<!-- filepath: c:\Users\msjones\OneDrive - Intel Corporation\Documents\GitHub\msjones\PocketFlow\PocketFlow-Template-Python\docs\design.md -->
+# Design Doc: File Organization Tool
+
+> Please DON'T remove notes for AI
+
+## Requirements
+
+> Notes for AI: Keep it simple and clear.
+> If the requirements are abstract, write concrete user stories
+
+1. As a user, I want to categorize files from a source directory into a destination directory based on file type, creation date, and last modified date.
+2. As a user, I want the system to handle name conflicts by renaming files appropriately.
+3. As a user, I want to generate HTML and CSV reports of the organized files.
+
+## Flow Design
+
+> Notes for AI:
+> 1. Consider the design patterns of agent, map-reduce, rag, and workflow. Apply them if they fit.
+> 2. Present a concise, high-level description of the workflow.
+
+### Applicable Design Pattern:
+
+1. **Map** the files from the source directory into categorized chunks based on file type and date.
+2. **Reduce** these chunks into the destination directory while handling name conflicts.
+3. **Agentic report generator** to create HTML and CSV reports.
+
+### Flow high-level Design:
+
+1. **File Categorization Node**: This node categorizes files based on type and date.
+2. **Conflict Resolution Node**: This node handles name conflicts during file organization.
+3. **Report Generation Node**: This node generates HTML and CSV reports of the organized files.
